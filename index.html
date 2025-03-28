@@ -17,6 +17,31 @@
             background-color: #f5f5f5;
             color: #333;
             line-height: 1.6;
+            cursor: crosshair;  /* Default cursor for the whole page */
+        }
+
+        /* Custom cursor styles */
+        a, .circle-link {
+            cursor: pointer;
+        }
+
+        .logo:hover {
+            cursor: grab;
+        }
+
+        .profile-image:hover {
+            cursor: zoom-in;
+        }
+
+        nav ul li a:hover {
+            color: #E6A817;
+            cursor: pointer;
+        }
+
+        /* Make text selection more interesting */
+        ::selection {
+            background: #E6A817;
+            color: white;
         }
         
         /* Header Styles */
